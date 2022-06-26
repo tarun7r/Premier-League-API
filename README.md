@@ -13,5 +13,5 @@ An unofficial api client for pulling Player Stats, Fixtures, Results, Tables fro
  <H2>Premier League Fixtures</H2> 
 <ul>
   <li>Fixtures of the Next three weeks</li>
-  <br> <img src="Premier League API/fixtures.jpg"><br>
+  <br> <img src="Premier League API/fixtures.jpg"> <br>
  </ul>
