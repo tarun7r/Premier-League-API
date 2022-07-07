@@ -23,6 +23,6 @@ Follow the following instructions to run the application and start using the api
  </ul>
  <H2>Premier League Fixtures</H2> 
 <ul>
-  <li>Fixtures of the Next three weeks</li>
+  <li>Fixtures of the Next three weeks </li>
   <br> <img src="Premier League API/fixtures.jpg"> <br>
  </ul>
