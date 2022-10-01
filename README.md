@@ -26,3 +26,5 @@ Follow the following instructions to run the application and start using the api
   <li>Fixtures of the Next three weeks </li>
   <br> <img src="Premier League API/fixtures.jpg"> <br>
  </ul>
+<H2> Update </H2>
+You can search the player stats by using the players reference image (Face Recognition using ML) - <a href=https://github.com/tarun7r/Premier-League-Face-Recognition-API> Repo</a>
