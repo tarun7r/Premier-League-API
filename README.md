@@ -1,5 +1,7 @@
-<h1>Premier League API</h1>
+<h1>Premier League API 2.0</h1>
 	<p>This is an unofficial Premier League API client for pulling player stats, fixtures, tables, and results data from the Premier League. The API is built using Flask, and the data is scraped from the Premier League website.</p>
+
+
 <h2>API Endpoints</h2>
 
 <p>The application provides the following API endpoints:</p>
@@ -11,11 +13,10 @@
           'name': name, 
           'position': position, 
           'club': club, 
-          'key_stats': basic_stats, 
           'Nationality': nationality, 
           'Date of Birth': dob,
           'height':height,
-          'complete stats': all_stats
+          'key_stats': all_stats
           }
 ]</code></pre>
 
@@ -23,7 +24,16 @@
 <h3>GET /table</h3>
 <p>The JSON object contains an array of strings, where each string represents a team's position, name, number of games played, wins, draws, losses, goal difference, and total points.</p>
 <p>The API returns a JSON object with the following structure:</p>
-<pre><code>[ { Played Won Draw Lost Goal Differnece Total Points } ] </code></pre>
+<pre><code>[
+      "Position",
+      "Team",
+      "Played",
+      "Wins",
+      "Draws",
+      "Losses",
+      "Goal Difference",
+      "Points"
+    ]</code></pre>
 
 <h3>GET /fixtures/{team_name}</h3>
 <p>This endpoint retrieves information about the next Three Premier League fixtures of the team. The team name should be provided as a URL parameter.</p>
@@ -44,17 +54,25 @@ Follow the following instructions to run the application and start using the api
 <H2>Individual PLayer PL Stats</H2> 
 <ul>
   <li>Example: Stats of Cristiano Ronaldo | One can use the common name of the Players as well to retrive the data</li>
-  <br> <img src="Premier League API/players_stats.jpg"><br>
+  <br> <img src="assets/player_stats.png"><br>
 </ul>
  <H2>Premier League Table</H2> 
 <ul>
   <li>Current Premier League Table</li>
-  <br> <img src="Premier League API/table.jpg"><br>
+  <br> <img src="assets/table.png"><br>
  </ul>
  <H2>Premier League Fixtures </H2> 
 <ul>
   <li>Fixtures of the Next three weeks </li>
-  <br> <img src="Premier League API/fixtures.jpg"> <br>
+  <br> <img src="assets/fixtures.png"> <br>
  </ul>
-<H2> Update </H2>
-You can search the player stats by using the players reference image (Face Recognition using ML) as well - <a href=https://github.com/tarun7r/Premier-League-Face-Recognition-API> Repo</a>
+<H2>Update 🚀 </H2>
+The API has been enhanced with new features and improvements:
+<ul>
+  <li>✨ Optimized the code for better performance.</li>
+  <li>🔄 Rebased and updated to ensure compatibility with the latest dependencies.</li>
+</ul>
+You can also search player stats using the player's reference image ( Face Recognition ) as well - <a href=https://github.com/tarun7r/Premier-League-Face-Recognition>Repo</a> 📸
+
+<H2>Disclaimer</H2>
+This project is created solely for learning and educational purposes. It is not intended for production-level use or commercial applications
